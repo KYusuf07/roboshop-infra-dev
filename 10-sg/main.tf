@@ -22,3 +22,4 @@ module "sg" {
     sg_name = replace(var.sg_names[count.index], "_", "-")
     vpc_id = local.vpc_id
 }
+}

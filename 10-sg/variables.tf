@@ -24,6 +24,6 @@ variable "sg_names" {
         "bastion", "vpn"
     ]
 }
-
+}
 
 
