@@ -29,4 +29,3 @@ resource "aws_iam_instance_profile" "bastion" {
   name = local.common_tags.Name
   role = aws_iam_role.bastion.name
 }
-}

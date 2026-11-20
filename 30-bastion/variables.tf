@@ -6,4 +6,3 @@ variable "environment" {
     default = "dev"
 }
 
-}
