@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket       = "remote-vibelearning"
-    key          = "vpc.tfstate"
+    key          = "sg.tfstate"
     region       = "us-east-1"
     encrypt      = true
     use_lockfile = true
