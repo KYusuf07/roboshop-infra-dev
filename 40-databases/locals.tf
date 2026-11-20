@@ -9,3 +9,4 @@ locals {
         Name = "${var.project}-${var.environment}-mongodb"
     }
 }
+}
