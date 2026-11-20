@@ -21,3 +21,4 @@ resource "aws_instance" "bastion" {
 
   tags = local.common_tags
 }
+}
