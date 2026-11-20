@@ -315,4 +315,3 @@ resource "aws_vpc_security_group_ingress_rule" "bastion_mylap" {
   ip_protocol = "tcp"
   to_port     = 22
 }
-}

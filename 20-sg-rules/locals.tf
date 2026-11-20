@@ -17,4 +17,3 @@ locals{
     bastion_sg_id = data.aws_ssm_parameter.bastion_sg_id.value
     vpn_sg_id = data.aws_ssm_parameter.vpn_sg_id.value
 }
-}
