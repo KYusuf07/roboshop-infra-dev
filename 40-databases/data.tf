@@ -20,7 +20,7 @@ data "aws_ssm_parameter" "mongodb_sg_id" {
 }
 
 data "aws_ssm_parameter" "redis" {
-  name = "/${var.project}/${var.environment}/redis"
+  name = "/${var.project}/${var.environment}/redis_sg_id"
 }
 
 data "aws_ssm_parameter" "database_subnet_ids" {
