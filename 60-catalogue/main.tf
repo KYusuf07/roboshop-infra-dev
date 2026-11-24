@@ -39,4 +39,3 @@ resource "terraform_data" "bootstrap" {
 
 
 
-
