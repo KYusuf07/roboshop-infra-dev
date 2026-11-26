@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket       = "remote-vibelearning"
+    bucket       = "remote-tf-state-92s-dev"
     key          = "acm.tfstate"
     region       = "us-east-1"
     encrypt      = true
